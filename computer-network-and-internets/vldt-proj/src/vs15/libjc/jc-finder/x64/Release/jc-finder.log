@@ -1,0 +1,99 @@
+﻿生成启动时间为 2020/3/29 14:29:32。
+     1>项目“E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\jc-finder.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D JCFINDER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt src\finder\detector.cpp src\finder\sample.cpp
+         detector.cpp
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(117): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(117): note: 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(129): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(129): note: 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\encoder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\finder\detector.cpp(702): warning C4244: “初始化”: 从“float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(764): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(790): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(801): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1246): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1252): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1259): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1265): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1356): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1357): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1358): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1359): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1360): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\finder\detector.cpp(1501): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1524): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1638): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(1650): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2048): warning C4244: “=”: 从“Int32”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2150): warning C4244: “=”: 从“Int32”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2192): warning C4244: “=”: 从“Int32”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2218): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2222): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2226): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2230): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2246): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2247): warning C4244: “参数”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2315): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2329): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2330): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\finder\detector.cpp(2441): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2442): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2460): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2461): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2486): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2487): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2512): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2513): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2526): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2527): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2537): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2538): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2563): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2564): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2568): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2569): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2704): warning C4244: “初始化”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2778): warning C4244: “初始化”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2788): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2789): warning C4244: “=”: 从“double”转换到“Float”，可能丢失数据
+     1>src\finder\detector.cpp(2904): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         sample.cpp
+     1>src\finder\sample.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(117): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(117): note: 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(129): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h(129): note: 当 UDT 包含大小为零的数组时，无法生成复制构造函数或副本赋值运算符
+     1>e:\2020winter\projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\src\finder\sample.h(13): warning C4273: “sampleSymbolByAlignmentPattern”: dll 链接不一致
+         e:\2020winter\projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\src\finder\../dll.h(22): note: 参见“sampleSymbolByAlignmentPattern”的前一个定义
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\encoder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-finder.dll" /INCREMENTAL:NO /NOLOGO "E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\lib\opencv_core2411.lib" "E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\lib\opencv_highgui2411.lib" "E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\lib\opencv_imgproc2411.lib" "E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\lib\libpng16.lib" "E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\lib\zlib.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-finder.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-finder.lib" /MACHINE:X64 /DLL x64\Release\jc_finder_c_wrapper.obj
+         x64\Release\detector.obj
+         x64\Release\image.obj
+         x64\Release\sample.obj
+         x64\Release\transform.obj
+         x64\Release\image_tests.obj
+           正在创建库 E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-finder.lib 和对象 E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-finder.exp
+         正在生成代码
+         4 of 146 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           2 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         jc-finder.vcxproj -> E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-finder.dll
+       PostBuildEvent:
+         xcopy /r /y E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\dependence\*.* E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\*.*
+         :VCEnd
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\dependence\libpng16.dll
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\dependence\opencv_core2411.dll
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\dependence\opencv_highgui2411.dll
+         E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\dependence\opencv_imgproc2411.dll
+         复制了 4 个文件
+     1>已完成生成项目“E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-finder\jc-finder.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.85

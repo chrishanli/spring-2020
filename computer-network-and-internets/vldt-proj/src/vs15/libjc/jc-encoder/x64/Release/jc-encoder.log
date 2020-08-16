@@ -1,0 +1,76 @@
+﻿生成启动时间为 2020/3/29 13:56:39。
+     1>项目“E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-encoder\jc-encoder.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D JCENCODER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TC /errorReport:prompt src\encoder\encoder.c "src\jc-encoder-main.c" src\supports\image_tests.c src\supports\interleave.c src\supports\ldpc.c src\supports\mask.c src\supports\pseudo_random.c
+         encoder.c
+     1>src\encoder\encoder.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\2020winter\projects\shipper\visual-studio\shipper-proj\libjc\jc-encoder\src\encoder\encoder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\encoder\encoder.c(575): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\encoder\encoder.c(613): warning C4244: “=”: 从“Int32”转换到“Float”，可能丢失数据
+     1>src\encoder\encoder.c(606): warning C4244: “初始化”: 从“Int32”转换到“Float”，可能丢失数据
+     1>src\encoder\encoder.c(715): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\encoder\encoder.c(779): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\encoder\encoder.c(891): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\encoder\encoder.c(1273): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\encoder\encoder.c(1003): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\encoder\encoder.c(1154): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\encoder\encoder.c(2104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         jc-encoder-main.c
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\2020winter\projects\shipper\visual-studio\shipper-proj\libjc\jc-encoder\src\encoder/encoder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\jc-encoder-main.c(84): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>src\jc-encoder-main.c(120): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+         image_tests.c
+     1>src\supports\image_tests.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\2020winter\projects\shipper\visual-studio\shipper-proj\libjc\jc-encoder\src\supports\../encoder/encoder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         interleave.c
+     1>src\supports\interleave.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\encoder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ldpc.c
+     1>src\supports\ldpc.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\supports\ldpc.c(41): warning C4244: “函数”: 从“double”转换到“size_t”，可能丢失数据
+     1>src\supports\ldpc.c(38): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(39): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(102): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(290): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(308): warning C4244: “初始化”: 从“Float”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(335): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(336): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(337): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(387): warning C4244: “=”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(388): warning C4244: “=”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(506): warning C4244: “=”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(460): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(564): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(740): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(792): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(892): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(1032): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(1257): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+     1>src\supports\ldpc.c(1309): warning C4244: “初始化”: 从“double”转换到“Int32”，可能丢失数据
+         mask.c
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\jc.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\include\encoder.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pseudo_random.c
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-encoder.dll" /INCREMENTAL:NO /NOLOGO ../lib/libpng16.lib ../lib/zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-encoder.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-encoder.lib" /MACHINE:X64 /DLL x64\Release\encoder.obj
+         "x64\Release\jc-encoder-main.obj"
+         x64\Release\image_tests.obj
+         x64\Release\interleave.obj
+         x64\Release\ldpc.obj
+         x64\Release\mask.obj
+         x64\Release\pseudo_random.obj
+           正在创建库 E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-encoder.lib 和对象 E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-encoder.exp
+         正在生成代码
+         All 48 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         jc-encoder.vcxproj -> E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\build\x64\Release\jc-encoder.dll
+     1>已完成生成项目“E:\2020Winter\Projects\shipper\visual-studio\shipper-proj\libjc\jc-encoder\jc-encoder.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.53

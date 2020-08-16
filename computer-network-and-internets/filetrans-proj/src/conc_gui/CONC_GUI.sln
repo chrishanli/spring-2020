@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONC_GUI", "CONC_GUI\CONC_GUI.csproj", "{0ADE4F3E-9D8D-4C7B-BEB4-FFF4CB1711B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ADE4F3E-9D8D-4C7B-BEB4-FFF4CB1711B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADE4F3E-9D8D-4C7B-BEB4-FFF4CB1711B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADE4F3E-9D8D-4C7B-BEB4-FFF4CB1711B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADE4F3E-9D8D-4C7B-BEB4-FFF4CB1711B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F34B288-FC7D-443F-B002-B811C4A8904C}
+	EndGlobalSection
+EndGlobal
