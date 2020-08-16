@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="350.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hanli.simpnote.utils.FontChooserController">
+    <children>
+        <HBox prefWidth="360.0" style="-fx-spacing: 10;" VBox.vgrow="ALWAYS">
+            <children>
+                <VBox style="-fx-spacing: 5;" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Label text="Font:">
+                            <font>
+                                <Font name="Meiryo UI Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="font" maxWidth="1.7976931348623157E308" prefWidth="150.0" style="-fx-border-color: #999999;" />
+                        <ListView fx:id="fontList" prefWidth="150.0" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+                <VBox style="-fx-spacing: 5;" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Label text="Shape:">
+                            <font>
+                                <Font name="Meiryo UI Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="type" maxWidth="1.7976931348623157E308" prefWidth="100.0" style="-fx-border-color: #999999;" />
+                        <ListView fx:id="typeList" prefWidth="100.0" VBox.vgrow="ALWAYS" />
+                    </children>
+                </VBox>
+                <VBox style="-fx-spacing: 5;" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Label text="Weight:">
+                            <font>
+                                <Font name="Meiryo UI Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="size" maxWidth="1.7976931348623157E308" prefWidth="100.0" style="-fx-border-color: #999999;" />
+                        <ListView fx:id="sizeList" prefWidth="100.0" VBox.vgrow="ALWAYS" />
+                    </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+                </VBox>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </HBox>
+        <HBox maxHeight="-Infinity" style="-fx-spacing: 10;" VBox.vgrow="ALWAYS">
+            <children>
+                <VBox style="-fx-spacing: 5;">
+                    <children>
+                        <Label text="Colour:">
+                            <font>
+                                <Font name="Meiryo UI Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <ComboBox fx:id="colorList" prefHeight="27.0" prefWidth="193.0" />
+                        <HBox style="-fx-spacing: 53;">
+                            <children>
+                                <Button fx:id="ok" prefWidth="70.0" text="OK" />
+                                <Button fx:id="cancel" prefWidth="70.0" text="Cancel" textAlignment="RIGHT" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <VBox style="-fx-spacing: 5;" HBox.hgrow="ALWAYS">
+                    <children>
+                        <Label text="Preview:">
+                            <font>
+                                <Font name="Meiryo UI Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="sample" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="50" minWidth="167.0" prefHeight="59.0" style="-fx-border-color: #999999;" text="字 abc ABC 123" />
+                    </children>
+                </VBox>
+            </children>
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" />
+            </VBox.margin>
+        </HBox>
+    </children>
+</VBox>

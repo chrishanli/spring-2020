@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="basePane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hanli.simpnote.notepad.NotePadViewController">
+   <center>
+       <BorderPane fx:id="borderPane" prefHeight="600.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+           <bottom>
+               <ToolBar fx:id="statusBar" prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                   <items>
+                       <Label fx:id="btnSeeDocStatistics" onMouseClicked="#btnSeeDocStatisticsClicked" text="文档统计" textFill="#00579a">
+                           <font>
+                               <Font name="Lucida Sans Demibold" size="13.0" />
+                           </font>
+                           <cursor>
+                               <Cursor fx:constant="HAND" />
+                           </cursor></Label>
+                       <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="10.0" />
+                       <Label text="行">
+                           <font>
+                               <Font name="Lucida Sans Demibold" size="13.0" />
+                           </font></Label>
+                       <Label fx:id="lblLn" text="20">
+                           <font>
+                               <Font name="Lucida Sans Regular" size="13.0" />
+                           </font></Label>
+                       <Label text="列">
+                           <font>
+                               <Font name="Lucida Sans Demibold" size="13.0" />
+                           </font></Label>
+                       <Label fx:id="lblCol" text="40">
+                           <font>
+                               <Font name="Lucida Sans Regular" size="13.0" />
+                           </font></Label>
+                       <Label text="选中">
+                           <font>
+                               <Font name="Lucida Sans Demibold" size="13.0" />
+                           </font></Label>
+                       <Label fx:id="lblSel" text="20">
+                           <font>
+                               <Font name="Lucida Sans Regular" size="13.0" />
+                           </font></Label>
+                       <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="10.0" />
+                       <Label fx:id="lblEncoding" text="Encoding" />
+                   </items>
+               </ToolBar>
+           </bottom>
+           <center>
+
+           </center>
+           <top>
+               <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                   <items>
+                       <Button fx:id="btnToolbarPaste" mnemonicParsing="false" text="贴上">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Button fx:id="btnToolBarCopy" mnemonicParsing="false">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Button fx:id="btnToolBarCut" mnemonicParsing="false">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Separator orientation="VERTICAL" prefHeight="18.0" prefWidth="12.0" />
+                       <Button fx:id="btnToolBarOpen" mnemonicParsing="false">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Button fx:id="btnToolBarSave" mnemonicParsing="false">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Separator orientation="VERTICAL" prefHeight="18.0" prefWidth="12.0" />
+                       <Button fx:id="btnToolBarUndo" disable="true" mnemonicParsing="false">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Button fx:id="btnToolBarRedo" disable="true" mnemonicParsing="false">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Separator orientation="VERTICAL" prefHeight="18.0" prefWidth="12.0" />
+                       <Button fx:id="btnToolBarFindRep" mnemonicParsing="false" onAction="#btnFindRepClicked" text="查找 / 替换">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Separator orientation="VERTICAL" prefHeight="18.0" prefWidth="12.0" />
+                       <Button fx:id="btnToolBarFonts" mnemonicParsing="false" text="Fonts">
+                           <font>
+                               <Font size="14.0" />
+                           </font>
+                       </Button>
+                       <Spinner fx:id="txtToolBarCharWeight" prefHeight="27.0" prefWidth="135.0" />
+                   </items>
+               </ToolBar>
+           </top>
+       </BorderPane>
+   </center>
+</BorderPane>
